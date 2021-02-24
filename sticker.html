@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sticker</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .sticker {
+            width: 30%;
+            height: 30%;
+        }
+
+
+        .example-1 .sticker-img {
+            background-image: url("img/aa.jpg");
+        }
+
+        @media (min-width:769px) and (max-width:1024px) {
+            .sticker {
+                width: 400px;
+                height: 400px;
+                margin: 50px auto;
+            }
+        }
+
+        @media (max-width:768px) {
+            .sticker {
+                width: 400px;
+                height: 400px;
+                margin: 50px auto;
+            }
+        }
+
+        @media (max-width:480px) {
+            .sticker {
+                width: 250px;
+                height: 250px;
+                margin: 50px auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="sticker example-1"></div>
+
+    <script src="sticker.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            Sticker.init('.sticker');
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,410 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background: #fff;
+	font-weight: 400;
+	font-size: 100%;
+	color: #333;
+	height: 100%;
+}
+
+.js body {
+	overflow: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.container,
+.bb-custom-wrapper,
+.bb-bookblock {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	position: relative;
+	left: 0px;
+	-webkit-transition: left 0.3s ease-in-out;
+	-o-transition: left 0.3s ease-in-out;
+	transition: left 0.3s ease-in-out;
+}
+
+.slideRight {
+	left: 240px;
+}
+
+.no-js .container {
+	padding-left: 240px;
+}
+
+.menu-panel {
+	background: #f1103a;
+	width: 240px;
+	height: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.js .menu-panel {
+	position: absolute;
+	left: -240px;
+}
+
+.menu-panel h3 {
+	font-size: 1.8em;
+	padding: 20px;
+	font-weight: 300;
+	color: #fff;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05);
+} 
+
+.menu-toc {
+	list-style: none;
+}
+
+.menu-toc li a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	line-height: 3.5;
+	padding: 0 20px;
+	cursor: pointer;
+	background: #f1103a;
+	border-bottom: 1px solid #dd1338;
+}
+
+.menu-toc li a:hover,
+.menu-toc li.menu-toc-current a{
+	background: #dd1338;
+}
+
+.menu-panel div {
+	margin-top: 20px;
+}
+
+.menu-panel div a {
+	text-transform: uppercase;
+	font-size: 0.7em;
+	line-height: 1;
+	padding: 5px 20px;
+	display: block;
+	border: none;
+	color: #bc0b0b;
+	letter-spacing: 1px;
+	font-weight: 800;
+	text-shadow: 0 1px rgba(255,255,255,0.2);
+} 
+
+.menu-panel div a:hover {
+	background: inherit;
+	color: #fff;
+	text-shadow: none;
+}
+
+.bb-custom-wrapper nav {
+	top: 20px;
+	left: 60px;
+	position: absolute;
+	z-index: 1000;
+}
+
+.bb-custom-wrapper nav span,
+.menu-button {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 0;
+	left: 0;
+	background: #f1103a;
+	border-radius: 50%;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	speak: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bb-custom-wrapper nav span:hover,
+.menu-button:hover {
+	background: #000;
+}
+
+.bb-custom-wrapper nav span:last-child {
+	left: 40px;
+}
+
+.menu-button {
+	z-index: 1000;
+	left: 20px;
+	top: 20px;
+	text-indent: -9000px;
+}
+
+.menu-button:after {
+	position: absolute;
+	content: '';
+	width: 50%;
+	height: 2px;
+	background: #fff;
+	top: 50%;
+	margin-top: -1px;
+	left: 25%;
+	box-shadow: 0 -4px #fff, 0 4px #fff;
+}
+
+.no-js .bb-custom-wrapper nav span,
+.no-js .menu-button {
+	display: none;
+}
+
+.js .content {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	bottom: 50px;
+	overflow: hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.scroller {
+	padding: 10px 5% 10px 5%;
+}
+.scr{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    padding: 10vh 0;
+}
+.scr h1{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #8b6d5a;
+    font-size: 5em;
+    text-align: center;
+}
+
+.content h2 {
+	font-weight: bolder;
+	font-size: 3em;
+	padding: 0 0 10px;
+    padding-bottom: 100px;
+	color: #8b6d5a;
+	margin: 0 1% 40px;
+	text-align: center;
+}
+
+.content p {
+	font-size: 1.2em;
+    color: #5e4633;
+}
+
+.scr1{
+    width: 100%;
+    margin: 0 auto;
+}
+.scr1 figure{
+    width: 95%;
+    text-align: center;
+}
+.scr1 figure img{
+    width: 45%;
+    display: inline-block;
+}
+.scr1 figure figcaption{
+    width: 100%;
+    position: relative;
+}
+.scr1 figure figcaption p{
+    text-align: center;
+    padding-top: 50px;
+}
+.scr3{
+    width: 95%;
+    margin: 0 auto;
+}
+.scr3_1{
+    width: 100%;
+    margin: 0 auto;
+}
+.scr3_1 img:nth-of-type(1){
+    width: 60%;
+    vertical-align: top;
+}
+.scr3_1 img:nth-of-type(2){
+    width: 30%;
+}
+.scr3_1 img:nth-of-type(3){
+    width: 40%;
+}
+
+.scr3 p{
+    width: 100%;
+    margin: 0 auto;
+     text-align: center;  
+    padding-bottom: 50px;
+}
+
+.scr4{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.scr4 img{
+    width: 55%; 
+}
+.scr4 p{
+    width: 100%;
+    margin: 0 auto;
+     text-align: center;  
+    padding-bottom: 50px;
+}
+.Box{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.scr5{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.scr5 figure{
+    width: 100%;
+}
+.scr5 figure img{
+    width: 100%;
+}
+.scr5 figure figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.scr5 figure figcaption p{}
+
+.scr6{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.scr6 figure{
+    width: 100%;
+}
+.scr6 figure img{
+    width: 100%;
+
+}
+.scr6 figure figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.scr6 figure figcaption p{}
+
+.scr7{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.scr7 figure{
+    width: 100%;
+}
+.scr7 figure img{
+    width: 100%;
+
+}
+.scr7 figure figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.scr7 figure figcaption p{}
+
+.scr8{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    vertical-align: top;
+}
+.scr8 figure{
+    width: 100%;
+}
+.scr8 figure img{
+    width: 100%;
+
+}
+.scr8 figure figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.scr8 figure figcaption p{}
+
+.scr9{
+    width: 45%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+.scr9 figure{
+    width: 100%;
+}
+.scr9 figure img{
+    width: 100%;
+
+}
+.scr9 figure figcaption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.scr9 figure figcaption p{}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+	.no-js .menu-panel {
+		display: none;
+	}
+
+	.no-js .container {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.menu-panel,
+	.content {
+		font-size: 75%;
+	}
+}

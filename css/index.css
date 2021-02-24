@@ -1,0 +1,570 @@
+@import url('common.css');
+
+body {
+    width: 100%;
+    background:linear-gradient(270deg, #fff 80%, #650911 20%);
+}
+/*=================================main===================================*/
+main{
+    width:100%;
+    height: 100vh;
+    position:relative;
+    overflow:hidden;
+}
+.Box{
+    width:30%;
+    height: 1000px;
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 0;
+    left:20%;
+    z-index:999;
+}
+.mainImg{
+    width:25%;
+    position:absolute;
+    top:40%;
+    left: 20%;
+    transform:translate(-20%,-40%);
+    z-index: 9999;
+}
+.mainImg img{
+    width:100%;
+}
+.logo{
+    position:absolute;
+    top:50%;
+    left: 4%;
+    transform: translate(-4%,-50%);
+}
+.logo p{
+    font-size:32px;
+    font-weight: 400;
+    color:#F3ECDB;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.maintext{
+    position:absolute;
+    top:50%;
+    right:10%;
+    transform: translate(-10%,-50%);
+    line-height: 50px;
+}
+.maintext h2{
+    font-size:70px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.maintext p{
+    font-weight: 300;
+    font-size:20px;
+    line-height: 50px;
+}
+.maintext p::after{
+    content: "";
+    display: block;
+    width: 60px;
+    border-bottom: 5px solid #000;
+    margin-top:50px;
+}
+.menu{
+    display:inline-block;
+    line-height: 100px;
+}
+.menu ul{
+    display:inline-block;
+}
+.menu ul li{
+    display:inline-block;
+    padding-right:50px;
+}
+.menu ul li a{
+    font-size:25px;
+    font-weight:bolder;
+    color:#1f463b;
+}
+.menu ul li a:hover{
+    color: #650911;
+    border-bottom:4px solid #650911;
+}
+.Box2{
+    width:5px;
+    height: 1000px;
+    background-color: #650911;
+    position: absolute;
+    top: 0;
+    right:50px;
+    z-index:999;
+}
+.Box3{
+    width:100%;
+    height: 5px;
+    background-color: #650911;
+    position: absolute;
+    bottom: 200px;
+    z-index:99;
+}
+/*====================================================================*/
+@media (min-width:1100px) and (max-width:1700px) {
+    body {
+        width: 100%;
+        background:linear-gradient(270deg, #1a1a1a 80%, #650911 20%);
+    }
+    /*=================================main===================================*/
+    main{
+        width:100%;
+        height: 100vh;
+        position:relative;
+        overflow:hidden;
+    }
+    .Box{
+        width:30%;
+        height: 1000px;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        left:20%;
+        z-index:999;
+        display: none;
+    }
+    .mainImg{
+        width:25%;
+        position:absolute;
+        top:60%;
+        left: 10%;
+        transform:translate(-10%,-60%);
+        z-index: 9999;
+    }
+    .mainImg img{
+        width:100%;
+    }
+    .logo{
+        position:absolute;
+        top:50%;
+        left: 4%;
+        transform: translate(-4%,-50%);
+        display: none;
+    }
+    .logo p{
+        font-size:32px;
+        font-weight: 400;
+        color:#F3ECDB;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+    .maintext{
+        width:50%;
+        position:absolute;
+        top:50%;
+        right: 0;
+        transform: translate(0%,-50%);
+        line-height: 30px;
+    }
+    .maintext h2{
+        font-size:50px;
+        font-weight: bold;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p{
+        font-weight: 300;
+        font-size:15px;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p::after{
+        content: "";
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid #F3ECDB;
+        margin-top:50px;
+    }
+    .menu{
+        width:100%;
+        display:inline-block;
+        line-height: 100px;
+    }
+    .menu ul{
+        width:100%;
+        display:inline-block;
+    }
+    .menu ul li{
+        display:inline-block;
+        padding-right:10px;
+    }
+    .menu ul li a{
+        font-size:3vh;
+        font-weight:bolder;
+        color:#1f463b;
+    }
+    .menu ul li a:hover{
+        color: #650911;
+        border-bottom:4px solid #650911;
+    }
+    .Box2{
+        width:5px;
+        height: 1000px;
+        background-color: #F3ECDB;
+        position: absolute;
+        top: 0;
+        right:50px;
+        z-index:999;
+    }
+    .Box3{
+        width:100%;
+        height: 5px;
+        background-color: #F3ECDB;
+        position: absolute;
+        bottom: 200px;
+        z-index:99;
+    }
+}
+/*====================================================================*/
+@media (min-width:769px) and (max-width:1099px) {
+    body {
+        width: 100%;
+        background:linear-gradient(270deg, #1a1a1a 80%, #650911 20%);
+    }
+    /*=================================main===================================*/
+    main{
+        width:100%;
+        height: 100vh;
+        position:relative;
+        overflow:hidden;
+    }
+    .Box{
+        width:30%;
+        height: 1000px;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        left:20%;
+        z-index:999;
+        display: none;
+    }
+    .mainImg{
+        width:30%;
+        position:absolute;
+        top:60%;
+        left: 10%;
+        transform:translate(-10%,-60%);
+        z-index: 9999;
+    }
+    .mainImg img{
+        width:100%;
+    }
+    .logo{
+        position:absolute;
+        top:50%;
+        left: 4%;
+        transform: translate(-4%,-50%);
+        display: none;
+    }
+    .logo p{
+        font-size:32px;
+        font-weight: 400;
+        color:#F3ECDB;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+    .maintext{
+        width:50%;
+        position:absolute;
+        top:50%;
+        right: 3%;
+        transform: translate(-3%,-50%);
+        line-height: 30px;
+    }
+    .maintext h2{
+        font-size:30px;
+        font-weight: bold;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p{
+        font-weight: 300;
+        font-size:15px;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p::after{
+        content: "";
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid #F3ECDB;
+        margin-top:30px;
+    }
+    .menu{
+        width:100%;
+        display:inline-block;
+        line-height: 50px;
+    }
+    .menu ul{
+        width:100%;
+        display:inline-block;
+    }
+    .menu ul li{
+        display:inline-block;
+        padding-right:10px;
+    }
+    .menu ul li a{
+        font-size:3vh;
+        font-weight:bolder;
+        color:#1f463b;
+    }
+    .menu ul li a:hover{
+        color: #650911;
+        border-bottom:4px solid #650911;
+    }
+    .Box2{
+        width:5px;
+        height: 1000px;
+        background-color: #F3ECDB;
+        position: absolute;
+        top: 0;
+        right:50px;
+        z-index:999;
+    }
+    .Box3{
+        width:100%;
+        height: 5px;
+        background-color: #F3ECDB;
+        position: absolute;
+        bottom: 200px;
+        z-index:99;
+    }
+}
+/*====================================================================*/
+@media (min-width:481px) and (max-width:768px) {
+    body {
+        width: 100%;
+        background:linear-gradient(270deg, #1a1a1a 80%, #650911 20%);
+    }
+    /*=================================main===================================*/
+    main{
+        width:100%;
+        height: 100vh;
+        position:relative;
+        overflow:hidden;
+    }
+    .Box{
+        width:30%;
+        height: 1000px;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        left:20%;
+        z-index:999;
+        display: none;
+    }
+    .mainImg{
+        width:30%;
+        position:absolute;
+        top:60%;
+        left: 10%;
+        transform:translate(-10%,-60%);
+        z-index: 9999;
+        display: none;
+    }
+    .mainImg img{
+        width:100%;
+    }
+    .logo{
+        position:absolute;
+        top:50%;
+        left: 4%;
+        transform: translate(-4%,-50%);
+        display: none;
+    }
+    .logo p{
+        font-size:32px;
+        font-weight: 400;
+        color:#F3ECDB;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+    .maintext{
+        width:50%;
+        position:absolute;
+        top:10%;
+        right: 15%;
+        transform: translate(-15%,-10%);
+        line-height: 30px;
+    }
+    .maintext h2{
+        font-size:30px;
+        font-weight: bold;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p{
+        font-weight: 300;
+        font-size:15px;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p::after{
+        content: "";
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid #F3ECDB;
+        margin-top:30px;
+    }
+    .menu{
+        width:100%;
+        display:block;
+        line-height: 50px;
+    }
+    .menu ul{
+        width:100%;
+        display:block;
+    }
+    .menu ul li{
+        display:block;
+        padding-right:10px;
+    }
+    .menu ul li a{
+        font-size:3vh;
+        font-weight:bolder;
+        color:#1f463b;
+    }
+    .menu ul li a:hover{
+        color: #650911;
+        border-bottom:4px solid #650911;
+    }
+    .Box2{
+        width:5px;
+        height: 1000px;
+        background-color: #F3ECDB;
+        position: absolute;
+        top: 0;
+        right:50px;
+        z-index:999;
+    }
+    .Box3{
+        width:100%;
+        height: 5px;
+        background-color: #F3ECDB;
+        position: absolute;
+        bottom: 200px;
+        z-index:99;
+    }
+}
+/*====================================================================*/
+@media (max-width:480px) {
+    body {
+        width: 100%;
+        background:linear-gradient(270deg, #1a1a1a 80%, #650911 20%);
+    }
+    /*=================================main===================================*/
+    main{
+        width:100%;
+        height: 100vh;
+        position:relative;
+        overflow:hidden;
+    }
+    .Box{
+        width:30%;
+        height: 1000px;
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        left:20%;
+        z-index:999;
+        display: none;
+    }
+    .mainImg{
+        width:30%;
+        position:absolute;
+        top:60%;
+        left: 10%;
+        transform:translate(-10%,-60%);
+        z-index: 9999;
+        display: none;
+    }
+    .mainImg img{
+        width:100%;
+    }
+    .logo{
+        position:absolute;
+        top:50%;
+        left: 4%;
+        transform: translate(-4%,-50%);
+        display: none;
+    }
+    .logo p{
+        font-size:32px;
+        font-weight: 400;
+        color:#F3ECDB;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+    .maintext{
+        width:50%;
+        position:absolute;
+        top:10%;
+        right: 15%;
+        transform: translate(-15%,-10%);
+        line-height: 30px;
+    }
+    .maintext h2{
+        font-size:30px;
+        font-weight: bold;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p{
+        font-weight: 300;
+        font-size:15px;
+        line-height: 30px;
+        color:#F3ECDB;
+    }
+    .maintext p::after{
+        content: "";
+        display: block;
+        width: 50px;
+        border-bottom: 3px solid #F3ECDB;
+        margin-top:30px;
+    }
+    .menu{
+        width:100%;
+        display:block;
+        line-height: 50px;
+    }
+    .menu ul{
+        width:100%;
+        display:block;
+    }
+    .menu ul li{
+        display:block;
+        padding-right:10px;
+    }
+    .menu ul li a{
+        font-size:3vh;
+        font-weight:bolder;
+        color:#1f463b;
+    }
+    .menu ul li a:hover{
+        color: #650911;
+        border-bottom:4px solid #650911;
+    }
+    .Box2{
+        width:5px;
+        height: 1000px;
+        background-color: #F3ECDB;
+        position: absolute;
+        top: 0;
+        right:50px;
+        z-index:999;
+    }
+    .Box3{
+        width:100%;
+        height: 5px;
+        background-color: #F3ECDB;
+        position: absolute;
+        bottom: 200px;
+        z-index:99;
+    }
+}
+
