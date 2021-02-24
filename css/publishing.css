@@ -524,16 +524,16 @@ header {
     color: aliceblue;
 }
 /* =========================sectionlast========================== */
-#sectionlast {
+#section4 {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-color: #650911;
+    background-color:#650911;
     position: sticky;
     top: 0;
     padding-top:200px;
 }
-#sectionlast::after {
+#section4::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -544,26 +544,26 @@ header {
     -webkit-animation: grain 0.5s steps(1) infinite;
     animation: grain 0.5s steps(1) infinite;
 }
-.lastBox {
+.sec4 {
     width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0;
 }
 
-#lastImg {
+#sec4_1 {
     width: 25%;
     margin: 0 auto;
 }
 
-#lastImg img {
+#sec4_1 img {
     width: 100%;
 }
 
-.lastBox h2 {
+.sec4 h2 {
     width: 100%;
     margin: 0 auto;
-    color: #fff;
+    color:#fff;
     font-size: 7em;
     text-align: center;
     animation: ani 1s infinite alternate;
@@ -578,7 +578,7 @@ header {
         transform: translate(0, 20px);
     }
 }
-.lastBox p{
+.sec4 p{
     width: 100%;
     margin: 0 auto;
     font-size: 16px;
@@ -1530,79 +1530,67 @@ header::after {
         color: aliceblue;
     }
 
-    #sectionlast {
+ /*=========================Last=============================*/
+    #section4 {
         width: 100%;
-        height: auto;
+        height: 100vh;
         margin: 0 auto;
-        overflow: hidden;
+        background-color: #650911;
         position: relative;
-        background: #111111;
-        padding: 20vh 0;
+        padding-top:5vh;
     }
-
-    .last4_1 h2 {
-        width: 90%;
+    #section4::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0.1;
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/662025/grain.jpg') repeat center center;
+        -webkit-animation: grain 0.5s steps(1) infinite;
+        animation: grain 0.5s steps(1) infinite;
+    }
+    .sec4 {
+        width: 100%;
         margin: 0 auto;
-        text-align: center;
-        font-size: 8em;
-        color: #738c6f;
-        padding-bottom: 100px;
-        animation: ani 1s infinite alternate;
-        transition: .5s;
+        position: relative;
     }
 
+    #sec4_1 {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    #sec4_1 img {
+        width: 100%;
+    }
+
+    .sec4 h2 {
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 5em;
+        text-align: center;
+        animation: ani 1s infinite alternate;
+        text-shadow: 10px 15px 1px #000;
+    }
     @keyframes ani {
         0% {
             transform: translate(0, 0);
         }
 
         100% {
-            transform: translate(0, 50px);
+            transform: translate(0, 20px);
         }
     }
-
-    .last4_1 p {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 1.5em;
-        z-index: 999;
-        color: #fff;
-    }
-
-    .box {
+    .sec4 p{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 {
-        width: 90%;
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 p {
-        width: 50%;
-        height: auto;
-        margin: 10px;
-        border: 2px solid #738c6f;
-        padding: 5px;
+        font-size: 13px;
         text-align: center;
-        vertical-align: middle;
-        cursor: pointer;
-        font-size: 2em;
-        z-index: 999;
+        color:#bcbcbc;
+        padding-top:7vh;
     }
-
-    .last4_2 p a {
-        color: #fff;
-    }
-
-
 }
 
 
@@ -2493,78 +2481,67 @@ header::after {
     .sec12_3 p a {
         color: aliceblue;
     }
-
-
-    #sectionlast {
+/*=========================Last=============================*/
+    #section4 {
         width: 100%;
-        height: auto;
+        height: 100vh;
         margin: 0 auto;
-        overflow: hidden;
+        background-color: #650911;
         position: relative;
-        background: #111111;
-        padding: 20vh 0;
+        padding-top:10vh;
     }
-
-    .last4_1 h2 {
-        width: 80%;
+    #section4::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0.1;
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/662025/grain.jpg') repeat center center;
+        -webkit-animation: grain 0.5s steps(1) infinite;
+        animation: grain 0.5s steps(1) infinite;
+    }
+    .sec4 {
+        width: 100%;
         margin: 0 auto;
-        text-align: center;
-        font-size: 6em;
-        color: #738c6f;
-        padding-bottom: 100px;
-        animation: ani 1s infinite alternate;
-        transition: .5s;
+        position: relative;
     }
 
+    #sec4_1 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #sec4_1 img {
+        width: 100%;
+    }
+
+    .sec4 h2 {
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 2em;
+        text-align: center;
+        animation: ani 1s infinite alternate;
+        text-shadow: 10px 15px 1px #000;
+        padding-top:10vh;
+    }
     @keyframes ani {
         0% {
             transform: translate(0, 0);
         }
 
         100% {
-            transform: translate(0, 50px);
+            transform: translate(0, 20px);
         }
     }
-
-    .last4_1 p {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 1.5em;
-        z-index: 999;
-        color: #fff;
-    }
-
-    .box {
+    .sec4 p{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 {
-        width: 90%;
         margin: 0 auto;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 p {
-        width: 100%;
-        height: auto;
-        margin: 10px;
-        border: 2px solid #738c6f;
-        padding: 5px;
+        font-size: 13px;
         text-align: center;
-        vertical-align: middle;
-        cursor: pointer;
-        font-size: 2em;
-        z-index: 999;
-    }
-
-    .last4_2 p a {
-        color: #fff;
+        color:#bcbcbc;
+        padding-top:15vh;
     }
 }
 
@@ -3445,77 +3422,65 @@ header::after {
         color: aliceblue;
     }
 
-    #sectionlast {
+    /*=========================Last=============================*/
+    #section4 {
         width: 100%;
-        height: auto;
+        height: 100vh;
         margin: 0 auto;
-        overflow: hidden;
+        background-color: #650911;
         position: relative;
-        background: #111111;
-        padding: 10vh 0;
+        padding-top:10vh;
     }
-
-    .last4_1 h2 {
-        width: 80%;
+    #section4::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0.1;
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/662025/grain.jpg') repeat center center;
+        -webkit-animation: grain 0.5s steps(1) infinite;
+        animation: grain 0.5s steps(1) infinite;
+    }
+    .sec4 {
+        width: 100%;
         margin: 0 auto;
-        text-align: center;
-        font-size: 5em;
-        color: #738c6f;
-        padding-bottom: 10vh;
-        animation: ani 1s infinite alternate;
-        transition: .5s;
+        position: relative;
     }
 
+    #sec4_1 {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    #sec4_1 img {
+        width: 100%;
+    }
+
+    .sec4 h2 {
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 4em;
+        text-align: center;
+        animation: ani 1s infinite alternate;
+        text-shadow: 10px 15px 1px #000;
+    }
     @keyframes ani {
         0% {
             transform: translate(0, 0);
         }
 
         100% {
-            transform: translate(0, 50px);
+            transform: translate(0, 20px);
         }
     }
-
-    .last4_1 p {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 1.5em;
-        z-index: 999;
-        color: #fff;
-    }
-
-    .box {
+    .sec4 p{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 {
-        width: 80%;
         margin: 0 auto;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .last4_2 p {
-        width: 100%;
-        height: auto;
-        margin: 10px;
-        border: 2px solid #738c6f;
-        padding: 5px;
+        font-size: 13px;
         text-align: center;
-        vertical-align: middle;
-        cursor: pointer;
-        font-size: 1em;
-        z-index: 999;
+        color:#bcbcbc;
+        padding-top:7vh;
     }
-
-    .last4_2 p a {
-        color: #fff;
-    }
-
-
 }
