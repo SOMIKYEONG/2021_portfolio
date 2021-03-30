@@ -259,13 +259,14 @@ header {
 }
 
 .sec8_2 h2 {
-    font-size: 5em;
+    font-size: 70PX;
     margin: 0;
+    padding-bottom: 50px;
     color:#fff;
 }
 
 .sec8_2 p {
-    font-size: 1.3em;
+    font-size: 15px;
     margin: 0;
     color:#fff;
 }
@@ -309,15 +310,12 @@ header {
 }
 
 .sec9_1 h2 {
-    font-size: 5em;
+    font-size: 70PX;
     margin: 0;
-    line-height: 80px;
-}
-.sec9_1 h2:nth-of-type(2){
-    padding-bottom:30px;
+    padding-bottom:50px;
 }
 .sec9_1 p {
-    font-size: 1.3em;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -377,12 +375,13 @@ header {
 }
 
 .sec10_2 h2 {
-    font-size: 5em;
+    font-size: 70PX;
     margin: 0;
+    padding-bottom: 50px;
 }
 
 .sec10_2 p {
-    font-size: 1.3em;
+    font-size: 15PX;
     margin: 0;
 }
 
@@ -425,12 +424,13 @@ header {
 }
 
 .sec11_1 h2 {
-    font-size: 5em;
+    font-size: 70PX;
     margin: 0;
+    padding-bottom:50px;
 }
 
 .sec11_1 p {
-    font-size: 1.3em;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -885,12 +885,13 @@ header::after {
     }
 
     .sec8_2 h2 {
-        font-size: 5em;
+        font-size: 70PX;
         margin: 0;
+        padding-bottom: 50px;
     }
 
     .sec8_2 p {
-        font-size: 1.3em;
+        font-size: 15px;
         margin: 0;
     }
 
@@ -1048,12 +1049,13 @@ header::after {
     }
 
     .sec11_1 h2 {
-        font-size: 5em;
+        font-size: 70PX;
         margin: 0;
+        padding-bottom: 50px;
     }
 
     .sec11_1 p {
-        font-size: 1.3em;
+        font-size: 15px;
         margin: 0;
     }
 
